@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Spencer LaJoye Live!</title>
+    <title>Identity in Music</title>
 
     <link href="style/main.css" rel="stylesheet" type="text/css" />
     <link href="style/dropdown.css" rel="stylesheet" type="text/css" />
@@ -30,13 +30,10 @@
     <script type="text/babel" src="js/reusable/comingSoon.js"></script>
 
     <script type="text/babel" src="js/content/homeContent.js"></script>
-    <script type="text/babel" src="js/content/genreContent.js"></script>
-    <script type="text/babel" src="js/content/artistContent.js"></script>
-    <script type="text/babel" src="js/content/musicContent.js"></script>
-    <script type="text/babel" src="js/content/performanceContent.js"></script>
-    <script type="text/babel" src="js/content/connectionContent.js"></script>
-    <script type="text/babel" src="js/content/socialContent.js"></script>
+    <script type="text/babel" src="js/content/researchContent.js"></script>
     <script type="text/babel" src="js/content/personalContent.js"></script>
+    <script type="text/babel" src="js/content/interviewContent.js"></script>
+    <script type="text/babel" src="js/content/questionContent.js"></script>
     <script type="text/babel" src="js/content/bibliographyContent.js"></script>
 
     <!--
@@ -61,7 +58,7 @@
 
                 <div id="titleNav">
                     <div id="title">
-                        Spencer LaJoye!
+                        Identity in Music
                     </div>
                     <div id="nav">
                         <div class="dropdown">
@@ -71,13 +68,10 @@
                         <div class="dropdown">
                             <div class="dropHeader">Search</div>
                             <div class="dropContent">
-                                <Link to="/artist">Artist</Link> <br />
-                                <Link to="/genre">Genre</Link> <br />
-                                <Link to="/music">Music</Link> <br />
-                                <Link to="/performance">Performance</Link> <br />
-                                <Link to="/connections">Connections</Link> <br />
-                                <Link to="/social">Social Issues</Link> <br />
-                                <Link to="/reflection">Personal Reflection</Link> <br />
+                                <Link to="/research">Research</Link> <br />
+                                <Link to="/personal">Personal Feelings</Link> <br />
+                                <Link to="/interview">Interviews</Link> <br />
+                                <Link to="/question">Questions</Link> <br />
                                 <Link to="/bibliography">Bibliography</Link>
                             </div>
                         </div>
@@ -87,13 +81,10 @@
                 <div id="content">
                     <Route path="/" exact component={homeContent} />
                     <Route path="/home" component={homeContent} />
-                    <Route path="/artist" component={artistContent} />
-                    <Route path="/genre" component={genreContent} />
-                    <Route path="/music" component={musicContent} />
-                    <Route path="/performance" component={performanceContent} />
-                    <Route path="/connections" component={connectionContent} />
-                    <Route path="/social" component={socialContent} />
-                    <Route path="/reflection" component={personalContent} />
+                    <Route path="/research" component={researchContent} />
+                    <Route path="/personal" component={personalContent} />
+                    <Route path="/interview" component={interviewContent} />
+                    <Route path="/question" component={questionContent} />
                     <Route path="/bibliography" component={bibliographyContent} />
                 </div>
 
