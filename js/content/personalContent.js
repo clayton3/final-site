@@ -25,6 +25,18 @@ const personalContent = () => {
                 <img style={{padding: "2rem"}} src={"pics/kdot.png"} />
             </div>
 
+            <h2>My Own Taste</h2>
+            <p>
+                I would like to also share what I consider to be an evolution of my music taste, This can be seen through my Spotify Wrapped
+                The will be shared through spotify embeds below.
+            </p>
+            <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1EMdHXIUxarbtv?utm_source=generator"
+                    width="100%" height="380" frameBorder="0" allowFullScreen=""
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+            <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1F0sijgNaJdgit?utm_source=generator"
+                    width="100%" height="380" frameBorder="0" allowFullScreen=""
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+
             <h3>Sources used for this Section</h3>
             <ul>
                 <li><a href={"https://en.wikipedia.org/wiki/The_Sweet_Escape"}>The Sweet Escape Image</a></li>
